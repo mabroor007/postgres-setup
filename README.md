@@ -11,7 +11,7 @@ Pull latest postgres alpine image from docker hub.
 
 ### STEP 2
 _use following command to run Postgres Container_
-"""docker run -d --name my-db-server -p 5432:5432 -e POSTGRES_PASSWORD=pwd postgres:alpine"""
+`docker run -d --name my-db-server -p 5432:5432 -e POSTGRES_PASSWORD=pwd postgres:alpine`
 
 ### STEP 3
 _Open container shell by following command_
