@@ -27,10 +27,10 @@ _Create a Database_
 
 ### STEP 6
 _Connect to a Database_
- :In psql shell type
+ In psql shell type
     """\c name_of_database"""
-Or
- :From Container Shell type
+**Or**
+ From Container Shell type
     """psql -h localhost -p 5432 -d test -U postgres"""
 
 ### STEP 7
