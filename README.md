@@ -15,36 +15,36 @@ _use following command to run Postgres Container_
 
 ### STEP 3
 _Open container shell by following command_
-"""docker exec -it my-db-server bash"""
+```docker exec -it my-db-server bash```
 
 ### STEP 4
 _Open psql shell by this command_
-"""psql -U postgres"""
+```psql -U postgres"""```
 
 ### STEP 5
 _Create a Database_
-"""CREATE DATABASE test;"""
+```CREATE DATABASE test;```
 
 ### STEP 6
 _Connect to a Database_
  In psql shell type
-    """\c name_of_database"""
+    ```\c name_of_database```
 **Or**
  From Container Shell type
-    """psql -h localhost -p 5432 -d test -U postgres"""
+    ```psql -h localhost -p 5432 -d test -U postgres```
 
 ### STEP 7
 _Deleting a database_
-"""DROP DATABASE name_of_database;"""
+```DROP DATABASE name_of_database;```
 CareFull its Dangerous.
 
 ### STEP 8
 _Exiting psql shell_
-"""\q"""
+```\q```
 
 ## ----------------------------(Setup finished)-----------------------------
 
 ### Usage 
 
-List of all the databases """\l"""
-List of all the tables in current database """\d"""
+List of all the databases ```\l```
+List of all the tables in current database ```\d```
