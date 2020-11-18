@@ -41,7 +41,7 @@ Exiting psql shell
 
 ## Usage 
 
-###CHEAT SHEAT
+CHEAT SHEAT
 | Command | Functionality |
 |---|------|
 | \l | List of all the databases |
