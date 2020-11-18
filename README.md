@@ -4,47 +4,47 @@ This is a postgres setup on docker.
          * Docker should be installed.
          * Basic Understanding of docker commands.
 
-# --------------------------------(Setup)----------------------------------
+## --------------------------------(Setup)----------------------------------
 
-# STEP 1
+### STEP 1
 Pull latest postgres alpine image from docker hub.
 
-# STEP 2
-use following command to run Postgres Container
+### STEP 2
+_use following command to run Postgres Container_
 """docker run -d --name my-db-server -p 5432:5432 -e POSTGRES_PASSWORD=pwd postgres:alpine"""
 
-# STEP 3
-Open container shell by following command
+### STEP 3
+_Open container shell by following command_
 """docker exec -it my-db-server bash"""
 
-# STEP 4
-Open psql shell by this command
+### STEP 4
+_Open psql shell by this command_
 """psql -U postgres"""
 
-# STEP 5
-Create a Database
+### STEP 5
+_Create a Database_
 """CREATE DATABASE test;"""
 
-# STEP 6
-Connect to a Database
+### STEP 6
+_Connect to a Database_
  :In psql shell type
     """\c name_of_database"""
 Or
  :From Container Shell type
     """psql -h localhost -p 5432 -d test -U postgres"""
 
-# STEP 7
-Deleting a database
+### STEP 7
+_Deleting a database_
 """DROP DATABASE name_of_database;"""
 CareFull its Dangerous.
 
-# STEP 8
-Exiting psql shell 
+### STEP 8
+_Exiting psql shell_
 """\q"""
 
-# ----------------------------(Setup finished)-----------------------------
+## ----------------------------(Setup finished)-----------------------------
 
-# Usage 
+### Usage 
 
-List of all the databases """\l""" \n
-List of all the tables in current database """\d""" \n
+List of all the databases """\l"""
+List of all the tables in current database """\d"""
