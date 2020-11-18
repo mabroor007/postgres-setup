@@ -46,5 +46,8 @@ _Exiting psql shell_
 
 ### Usage 
 
-List of all the databases `\l`
-List of all the tables in current database `\d`
+####CHEAT SHEAT
+| Command | Functionality |
+|---|------|
+| \l | List of all the databases |
+| \d | List of all the Tables in Current database
