@@ -1,9 +1,5 @@
 # postgres-setup-docker
-This is a postgres setup on docker.
-  Requirements:
-         * Docker should be installed.
-         * Basic Understanding of docker commands.
----
+
 ##Setup
 
 ### Step 1
