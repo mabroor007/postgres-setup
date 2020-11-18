@@ -1,6 +1,6 @@
 # postgres-setup-docker
 
-##Setup
+Setup
 
 ### Step 1
 Pull latest postgres alpine image from docker hub.
