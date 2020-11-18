@@ -46,5 +46,5 @@ Exiting psql shell
 
 # Usage 
 
-List of all the databases """\l""".
-List of all the tables in current database """\d"""
+List of all the databases """\l""" \n
+List of all the tables in current database """\d""" \n
