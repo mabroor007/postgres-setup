@@ -172,3 +172,19 @@ Hopefully you will see all comands executing and data added
 
 
 Read data from person table and you will see your data
+
+
+Organized Reading of Tables
+
+
+```SQL
+SELECT id,first_name,last_name,country FROM person ORDER BY country ASC;
+```
+
+
+   **OR**
+
+
+```SQL
+SELECT id,first_name,last_name,country FROM person ORDER BY country DESC;
+```
