@@ -81,6 +81,7 @@ CHEAT SHEAT
 | \l | List of all the databases |
 | \d | List of all the Tables in Current database |
 | \d table_name | Details of table |
+| \dt | Just the list of tables |
 
 ---
 # SQL 
