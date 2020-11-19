@@ -145,5 +145,16 @@ SELECT first_name,email,id FROM person;
 
 
 Generating Fake Data
+
+
 Use [Mockaroo](https://www.mockaroo.com/) for generating random fake data
+
+
+Create data in sql format then download in sql file. Then copy sql file in running postgres docker container.
+
+
+Copy file to container using
+`sudo docker cp /Downloads/person.sql post-app:/fs`
+
+
 
