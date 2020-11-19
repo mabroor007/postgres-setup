@@ -257,3 +257,9 @@ ORDER BY id DESC
 OFFSET 1 
 LIMIT 3;
 ```
+
+
+Easier Check Using IN
+```SQL
+SELECT DISTINCT id,first_name,country FROM person WHERE country IN('Canada','Pakistan');
+```
