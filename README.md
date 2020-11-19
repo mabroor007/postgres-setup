@@ -202,6 +202,7 @@ Conditional reading using WHERE
 ```SQL
 SELECT id,first_name,country FROM person WHERE country='Germany';
 ```
+NOTE: It can also include comparisons like ` < > <= <> >= `
 
 
 Multiple conditions using AND
@@ -226,3 +227,4 @@ Mega Combined Query
 ```SQL
 SELECT id,first_name,country,gender FROM person WHERE gender='Male' AND (country='Canada' OR country='Germany') ORDER BY id;
 ```
+
