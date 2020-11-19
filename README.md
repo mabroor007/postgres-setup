@@ -109,14 +109,14 @@ CREATE TABLE person ( id BIGSERIAL NOT NULL PRIMARY KEY,
                        last_name VARCHAR(50) NOT NULL,  
                        gender VARCHAR(7) NOT NULL,  
                        date_of_birth DATE NOT NULL,  
-                       email VARCHAR(150) UNIQUE );
+                       email VARCHAR(150) NOT NULL UNIQUE );
 ```
 
 
 Inserting entry into table
 ```SQL
-INSERT INTO person ( first_name, last_name, gender, date_of_birth )
-            VALUES ( 'Jhon', 'Doe', 'MALE', DATE '1998-12-12' );
+INSERT INTO person ( first_name, last_name, gender, date_of_birth, email )
+            VALUES ( 'Jhon', 'Doe', 'MALE', DATE '1998-12-12', 'doe@gmail.com' );
 ```
    **OR**
 
