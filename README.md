@@ -109,7 +109,7 @@ CREATE TABLE person ( id BIGSERIAL NOT NULL PRIMARY KEY,
                        last_name VARCHAR(50) NOT NULL,  
                        gender VARCHAR(7) NOT NULL,  
                        date_of_birth DATE NOT NULL,  
-                       email VARCHAR(150) );
+                       email VARCHAR(150) UNIQUE );
 ```
 
 
