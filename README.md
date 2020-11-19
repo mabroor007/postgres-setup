@@ -94,7 +94,8 @@ Delete a Table
 Create a table with constraints
 
 
-```SQL CREATE TABLE person ( id BIGSERIAL NOT NULL PRIMARY KEY,  
+```SQL 
+CREATE TABLE person ( id BIGSERIAL NOT NULL PRIMARY KEY,  
                        first_name VARCHAR(50) NOT NULL,  
                        last_name VARCHAR(50) NOT NULL,  
                        gender VARCHAR(7) NOT NULL,  
