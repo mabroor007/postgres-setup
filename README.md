@@ -202,3 +202,9 @@ Conditional reading using WHERE
 ```SQL
 SELECT id,first_name,country FROM person WHERE country='Germany';
 ```
+
+
+Multiple conditions using AND
+```SQL
+SELECT id,first_name,country,gender FROM person WHERE country='Canada' AND gender='Male';
+```
