@@ -228,3 +228,8 @@ Mega Combined Query
 SELECT id,first_name,country,gender FROM person WHERE gender='Male' AND (country='Canada' OR country='Germany') ORDER BY id;
 ```
 
+
+Limit number of results
+```SQL
+SELECT id,first_name,country FROM person LIMIT 10;
+```
