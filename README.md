@@ -55,5 +55,7 @@ Create a Table
                        name VARCHAR(50),
                        date_of_birth VARCHAR(50),
                        gender VARCHAR(7));` 
+
+
 Delete a Table
 `DROP TABLE table_name;`
