@@ -219,7 +219,10 @@ SELECT id,first_name,country,gender FROM person WHERE country='Canada' OR countr
 
 Combined Query
 ```SQL
-SELECT id,first_name,country,gender FROM person WHERE country='Canada' OR country='Germany' ORDER BY id;
+SELECT id,first_name,country,gender 
+FROM person WHERE country='Canada' 
+OR country='Germany' 
+ORDER BY id;
 ```
 
 
