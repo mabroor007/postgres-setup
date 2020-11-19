@@ -159,4 +159,13 @@ Copy file to container using
 `sudo docker cp /Downloads/person.sql post-app:/fs`
 
 
+Open psql shell connecting to the database
 
+
+Execute instructions from file in psql shell using 
+
+
+`\i /path_to_file`
+
+
+Hopefully you will see all comands executing and data added
