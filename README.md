@@ -198,3 +198,7 @@ SELECT DISTINCT country FROM person;
 ```
 
 
+Conditional reading using WHERE
+```SQL
+SELECT id,first_name,country FROM person WHERE country='Germany';
+```
