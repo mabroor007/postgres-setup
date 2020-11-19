@@ -188,3 +188,13 @@ SELECT id,first_name,last_name,country FROM person ORDER BY country ASC;
 ```SQL
 SELECT id,first_name,last_name,country FROM person ORDER BY country DESC;
 ```
+
+
+Distinctive reading of table
+
+
+```SQL
+SELECT DISTINCT country FROM person;
+```
+
+
