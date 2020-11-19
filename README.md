@@ -46,3 +46,11 @@ CHEAT SHEAT
 |---|------|
 | \l | List of all the databases |
 | \d | List of all the Tables in Current database |
+
+---
+# SQL 
+Create a Table 
+`CREATE TABLE person ( id INT,
+                       name VARCHAR(50),
+                       date_of_birth VARCHAR(50),
+                       gender VARCHAR(7));`  
