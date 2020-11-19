@@ -132,3 +132,13 @@ Reading entries from Table
 SELECT * FROM person;
 ```
 
+Reading Specific Collum from Table
+```SQL
+SELECT first_name FROM person;
+```
+
+
+Reading multiple Collum from Table
+```SQL 
+SELECT first_name,email,id FROM person;
+```
