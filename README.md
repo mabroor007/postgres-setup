@@ -246,3 +246,14 @@ AND (country='Canada' OR country='Germany')
 ORDER BY id DESC 
 LIMIT 3;
 ```
+
+
+Offset results
+```SQL
+SELECT DISTINCT id,first_name,country,gender 
+FROM person WHERE gender='Male' 
+AND (country='Canada' OR country='Germany') 
+ORDER BY id DESC 
+OFFSET 1 
+LIMIT 3;
+```
