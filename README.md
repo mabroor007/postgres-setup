@@ -286,3 +286,9 @@ SELECT id,email FROM person WHERE email LIKE '______@%';
 SELECT id,email,country FROM person WHERE country ILIKE 'pak%';
 ```
 NOTE: ILIKE is not case sensitive.
+
+
+COUNT and GROUP BY
+```SQL
+SELECT country, COUNT(*) FROM person GROUP BY country;
+```
