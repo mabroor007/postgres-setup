@@ -116,7 +116,14 @@ CREATE TABLE person ( id BIGSERIAL NOT NULL PRIMARY KEY,
 Inserting entry into table
 ```SQL
 INSERT INTO person ( first_name, last_name, gender, date_of_birth )
-            VALUES ( 'Jhon','Doe','MALE',DATE '1998-12-12' );
+            VALUES ( 'Jhon', 'Doe', 'MALE', DATE '1998-12-12' );
+```
+   **OR**
+
+
+```SQL
+INSERT INTO person ( first_name, last_name, gender, date_of_birth, email )
+            VALUES ( 'Martin', 'Guptil', 'MALE', DATE '1890-8-30', 'guptil@gmail.com' );
 ```
 
 
