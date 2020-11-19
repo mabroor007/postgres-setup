@@ -169,3 +169,6 @@ Execute instructions from file in psql shell using
 
 
 Hopefully you will see all comands executing and data added
+
+
+Read data from person table and you will see your data
