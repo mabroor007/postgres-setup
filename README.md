@@ -269,3 +269,9 @@ Range Reading Table using BETWEEN
 ```SQL
 SELECT id,first_name FROM person WHERE id BETWEEN 10 AND 20;
 ```
+ 
+
+***OR***
+```SQL 
+SELECT id,first_name FROM person WHERE date_of_birth BETWEEN DATE '1999-8-2' AND '2020-1-1';
+```
