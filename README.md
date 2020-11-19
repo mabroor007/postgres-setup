@@ -142,3 +142,8 @@ Reading multiple Collum from Table
 ```SQL 
 SELECT first_name,email,id FROM person;
 ```
+
+
+Generating Fake Data
+Use [Mockaroo](https://www.mockaroo.com/) for generating random fake data
+
