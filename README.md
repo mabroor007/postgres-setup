@@ -263,3 +263,9 @@ Easier Check Using IN
 ```SQL
 SELECT DISTINCT id,first_name,country FROM person WHERE country IN('Canada','Pakistan');
 ```
+
+
+Range Reading Table using BETWEEN
+```SQL
+SELECT id,first_name FROM person WHERE id BETWEEN 10 AND 20;
+```
