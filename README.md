@@ -225,11 +225,24 @@ SELECT id,first_name,country,gender FROM person WHERE country='Canada' OR countr
 
 Mega Combined Query
 ```SQL
-SELECT id,first_name,country,gender FROM person WHERE gender='Male' AND (country='Canada' OR country='Germany') ORDER BY id;
+SELECT id,first_name,country,gender 
+FROM person WHERE gender='Male' 
+AND (country='Canada' OR country='Germany') 
+ORDER BY id;
 ```
 
 
 Limit number of results
 ```SQL
 SELECT id,first_name,country FROM person LIMIT 10;
+```
+
+
+Combined mega pro query
+```SQL
+SELECT DISTINCT id,first_name,country,gender 
+FROM person WHERE gender='Male' 
+AND (country='Canada' OR country='Germany') 
+ORDER BY id DESC 
+LIMIT 3;
 ```
