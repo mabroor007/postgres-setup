@@ -275,3 +275,14 @@ SELECT id,first_name FROM person WHERE id BETWEEN 10 AND 20;
 ```SQL 
 SELECT id,first_name FROM person WHERE date_of_birth BETWEEN DATE '1999-8-2' AND '2020-1-1';
 ```
+
+
+Pattern search using LIKE & ILIKE
+```SQL
+SELECT id,email FROM person WHERE email LIKE '______@%';
+```
+***OR***
+```SQL
+SELECT id,email,country FROM person WHERE country ILIKE 'pak%';
+```
+NOTE: ILIKE is not case sensitive.
