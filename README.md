@@ -208,3 +208,15 @@ Multiple conditions using AND
 ```SQL
 SELECT id,first_name,country,gender FROM person WHERE country='Canada' AND gender='Male';
 ```
+
+
+Multiple conditions using OR
+```SQL
+SELECT id,first_name,country,gender FROM person WHERE country='Canada' OR country='Germany';
+```
+
+
+Combined Query
+```SQL
+SELECT id,first_name,country,gender FROM person WHERE country='Canada' OR country='Germany' ORDER BY id;
+```
