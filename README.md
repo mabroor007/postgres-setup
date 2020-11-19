@@ -220,3 +220,9 @@ Combined Query
 ```SQL
 SELECT id,first_name,country,gender FROM person WHERE country='Canada' OR country='Germany' ORDER BY id;
 ```
+
+
+Mega Combined Query
+```SQL
+SELECT id,first_name,country,gender FROM person WHERE gender='Male' AND (country='Canada' OR country='Germany') ORDER BY id;
+```
