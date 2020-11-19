@@ -54,7 +54,6 @@ Create a Table
 `CREATE TABLE person ( id INT,
                        name VARCHAR(50),
                        date_of_birth VARCHAR(50),
-                       gender VARCHAR(7));`  
----
+                       gender VARCHAR(7));` 
 Delete a Table
 `DROP TABLE table_name;`
