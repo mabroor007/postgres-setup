@@ -27,7 +27,9 @@ Open psql shell by this command
 Create a Database
 
 
-`CREATE DATABASE test;`
+```SQL
+CREATE DATABASE test;
+```
 
 ### Step 6
 Connect to a Database
@@ -53,7 +55,9 @@ Connect to a Database
 Deleting a database
 
 
-`DROP DATABASE name_of_database;`
+```SQL
+DROP DATABASE name_of_database;
+```
 
 
 CareFull its Dangerous.
@@ -81,14 +85,18 @@ CHEAT SHEAT
 ---
 # SQL 
 Create a Table 
-`CREATE TABLE person ( id INT,
+```SQL
+CREATE TABLE person ( id INT,
                        name VARCHAR(50),
                        date_of_birth VARCHAR(50),
-                       gender VARCHAR(7));` 
+                       gender VARCHAR(7));
+```
 
 
 Delete a Table
-`DROP TABLE table_name;`
+```SQL
+DROP TABLE table_name;
+```
 
 
 Create a table with constraints
@@ -100,6 +108,7 @@ CREATE TABLE person ( id BIGSERIAL NOT NULL PRIMARY KEY,
                        last_name VARCHAR(50) NOT NULL,  
                        gender VARCHAR(7) NOT NULL,  
                        date_of_birth DATE NOT NULL,  
-                       email VARCHAR(150) );```  
+                       email VARCHAR(150) );
+```
 
 
