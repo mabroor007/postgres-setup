@@ -349,3 +349,9 @@ Default read using COALESCE
 ```SQL
 SELECT COALESCE(email,'Undefined') FROM person;
 ```
+
+
+Preventing 0 division by using NULLIF
+```SQL
+SELECT id / NULLIF(id,0) AS res FROM person;
+```
