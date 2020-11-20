@@ -379,3 +379,9 @@ Date operations using INTERVAL
 ```SQL
 SELECT NOW() - INTERVAL '1 YEAR';
 ```
+
+
+Extracting parts from NOW function using EXTRACT function
+```SQL
+SELECT EXTRACT(CENTURY FROM NOW());
+```
