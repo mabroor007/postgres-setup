@@ -391,3 +391,9 @@ Altering constraints using ALTER TABLE
 ```SQL
 ALTER TABLE person DROP CONSTRAINT person_pkey;
 ```
+
+
+Deleting entry from table using DELETE
+```SQL
+DELETE FROM person WHERE id = 1;
+```
