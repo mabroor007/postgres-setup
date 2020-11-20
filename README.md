@@ -403,3 +403,9 @@ Adding constraints using ALTER TABLE
 ```SQL
 ALTER TABLE person ADD PRIMARY KEY(id);
 ```
+
+
+Adding Constraints using ALTER TABLE;
+```SQL
+ALTER TABLE person ADD CONSTRAINT person_unique_email UNIQUE(email);
+```
