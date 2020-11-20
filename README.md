@@ -323,11 +323,17 @@ SELECT AVG(id) FROM cars;
 
 Round function 
 ```SQL
-SELECT ROUND(AVG(id)) FROM cars;
+SELECT ROUND(AVG(id),2) FROM cars;
 ```
 
 
 Sum function
 ```SQL
 SELECT SUM(id) FROM cars;
+```
+
+
+Arithimatic Operations
+```SQL
+SELECT id, ROUND(id * 0.10,2) FROM cars;
 ```
