@@ -319,3 +319,9 @@ AVG function
 ```SQL
 SELECT AVG(id) FROM cars;
 ```
+
+
+Round function 
+```SQL
+SELECT ROUND(AVG(id)) FROM cars;
+```
