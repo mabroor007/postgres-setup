@@ -397,3 +397,9 @@ Deleting entry from table using DELETE
 ```SQL
 DELETE FROM person WHERE id = 1;
 ```
+
+
+Adding constraints using ALTER TABLE
+```SQL
+ALTER TABLE person ADD PRIMARY KEY(id);
+```
