@@ -343,3 +343,9 @@ Alias using AS
 ```SQL
 SELECT id, ROUND(id * 0.10,2) AS Ten_Percent FROM cars;
 ```
+
+
+Default read using COALESCE
+```SQL
+SELECT COALESCE(email,'Undefined') FROM person;
+```
