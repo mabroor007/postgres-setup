@@ -337,3 +337,9 @@ Arithimatic Operations
 ```SQL
 SELECT id, ROUND(id * 0.10,2) FROM cars;
 ```
+
+
+Alias using AS
+```SQL
+SELECT id, ROUND(id * 0.10,2) AS Ten_Percent FROM cars;
+```
