@@ -385,3 +385,9 @@ Extracting parts from NOW function using EXTRACT function
 ```SQL
 SELECT EXTRACT(CENTURY FROM NOW());
 ```
+
+
+Altering constraints using ALTER TABLE
+```SQL
+ALTER TABLE person DROP CONSTRAINT person_pkey;
+```
