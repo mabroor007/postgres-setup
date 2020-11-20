@@ -355,3 +355,23 @@ Preventing 0 division by using NULLIF
 ```SQL
 SELECT id / NULLIF(id,0) AS res FROM person;
 ```
+
+
+Getting timestamp using NOW function
+```SQL
+SELECT NOW();
+```
+
+
+Casting timestamp to date
+```SQL
+SELECT NOW()::DATE;
+```
+
+
+Casting timestamp to time
+```SQL
+SELECT NOW()::TIME;
+```
+
+
