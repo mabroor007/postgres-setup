@@ -301,3 +301,9 @@ Condititon on group results using HAVING
 ```SQL
 SELECT country,COUNT(*) FROM person GROUP BY country HAVING COUNT(*) > 5 ORDER BY COUNT(*);
 ```
+
+
+MAX function
+```SQL
+SELECT MAX(price) FROM cars;
+```
