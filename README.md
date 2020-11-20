@@ -307,3 +307,15 @@ MAX function
 ```SQL
 SELECT MAX(price) FROM cars;
 ```
+
+
+MIN function
+```SQL
+SELECT MIN(id) FROM cars;
+```
+
+
+AVG function
+```SQL
+SELECT AVG(id) FROM cars;
+```
