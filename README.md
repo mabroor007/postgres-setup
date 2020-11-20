@@ -375,3 +375,7 @@ SELECT NOW()::TIME;
 ```
 
 
+Date operations using INTERVAL
+```SQL
+SELECT NOW() - INTERVAL '1 YEAR';
+```
