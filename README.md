@@ -325,3 +325,9 @@ Round function
 ```SQL
 SELECT ROUND(AVG(id)) FROM cars;
 ```
+
+
+Sum function
+```SQL
+SELECT SUM(id) FROM cars;
+```
