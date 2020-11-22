@@ -409,3 +409,9 @@ Adding Constraints using ALTER TABLE;
 ```SQL
 ALTER TABLE person ADD CONSTRAINT person_unique_email UNIQUE(email);
 ```
+
+
+Add optional constraints using CHECK function
+```SQL
+ALTER TABLE person ADD CONSTRAINT gender_check CHECK( gender='Male' OR gender='Female');
+```
