@@ -443,3 +443,9 @@ Update entries using UPDATE
 ```SQL
 UPDATE person SET email = 'someEmail@gmail.com' WHERE id = 992;
 ```
+
+
+Updating Multiple entries
+```SQL
+UPDATE person SET email = 'someemail@gmail.com', first_name = 'turbulance' WHERE id = 992;
+```
