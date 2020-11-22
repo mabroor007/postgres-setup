@@ -449,3 +449,12 @@ Updating Multiple entries
 ```SQL
 UPDATE person SET email = 'someemail@gmail.com', first_name = 'turbulance' WHERE id = 992;
 ```
+
+
+Catch conflicts using ON CONFLICT () DO NOTHING
+```SQL
+INSERT INTO person (id,first_name,last_name,email,gender,date_of_birth,country)
+VALUES(5,'sidu','muse wala','musewala@gmail.com','Male','1990-8-28','India') 
+ON CONFLICT(id) 
+DO NOTHING;
+```
