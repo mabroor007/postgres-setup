@@ -437,3 +437,9 @@ Delete by key
 ```SQL
 DELETE FROM person WHERE id=4;
 ```
+
+
+Update entries using UPDATE
+```SQL
+UPDATE person SET email = 'someEmail@gmail.com' WHERE id = 992;
+```
