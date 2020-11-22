@@ -423,3 +423,11 @@ ALTER TABLE person ADD CONSTRAINT gender_check CHECK( gender='Male' OR gender='F
 ```SQL
 ALTER TABLE person ADD CONSTRAINT id_check CHECK( id > 0 );
 ```
+
+
+Delete all entries from table
+
+
+```SQL
+DELETE FROM cars;
+```
