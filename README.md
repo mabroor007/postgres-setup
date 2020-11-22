@@ -415,3 +415,11 @@ Add optional constraints using CHECK function
 ```SQL
 ALTER TABLE person ADD CONSTRAINT gender_check CHECK( gender='Male' OR gender='Female');
 ```
+
+
+***OR***
+
+
+```SQL
+ALTER TABLE person ADD CONSTRAINT id_check CHECK( id > 0 );
+```
