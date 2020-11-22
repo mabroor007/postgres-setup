@@ -431,3 +431,9 @@ Delete all entries from table
 ```SQL
 DELETE FROM cars;
 ```
+
+
+Delete by key
+```SQL
+DELETE FROM person WHERE id=4;
+```
