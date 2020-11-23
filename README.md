@@ -497,3 +497,10 @@ Selecting specific colloums from JOIN
 SELECT person.first_name,car.model,car.price FROM person
 JOIN car ON person.car_id = car.id;
 ```
+
+
+LEFT JOIN
+```SQL
+SELECT person.first_name,car.model,car.price FROM person
+LEFT JOIN car ON person.car_id = car.id;
+```
