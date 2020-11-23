@@ -484,3 +484,8 @@ CREATE TABLE person(
 NOTE: Table that you are making relations to must already exist
 
 
+Iner joins between table using JOIN ON
+```SQL
+SELECT * FROM person
+JOIN car ON person.car_id = car.id;
+```
