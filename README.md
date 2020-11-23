@@ -528,3 +528,7 @@ Create csv exported files
 ```SQL
 \copy (SELECT * FROM person) TO '/fs/per.csv' DELIMITER ',' CSV HEADER;
 ```
+
+
+If you are using docker then you can copy file to host by using
+`sudo docker cp post-app:/fs/per.csv .`
