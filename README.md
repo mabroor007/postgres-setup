@@ -82,6 +82,7 @@ CHEAT SHEAT
 | \d | List of all the Tables in Current database |
 | \d table_name | Details of table |
 | \dt | Just the list of tables |
+| \x | Toggle expanded view |
 
 ---
 # SQL 
@@ -487,5 +488,12 @@ NOTE: Table that you are making relations to must already exist
 Iner joins between table using JOIN ON
 ```SQL
 SELECT * FROM person
+JOIN car ON person.car_id = car.id;
+```
+
+
+Selecting specific colloums from JOIN
+```SQL
+SELECT person.first_name,car.model,car.price FROM person
 JOIN car ON person.car_id = car.id;
 ```
