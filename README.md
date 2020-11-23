@@ -511,3 +511,14 @@ Expanded Query
 SELECT person.first_name,car.model,car.price FROM person
 LEFT JOIN car ON person.car_id = car.id WHERE car.* IS NULL;
 ```
+
+
+To delete a related entry you first need to update or delete relying entry
+```SQL
+DELETE FROM person WHERE car_id = 3;
+```
+
+Then
+```SQL
+DELETE FROM car WHERE id=3;
+```
