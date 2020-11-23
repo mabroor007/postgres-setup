@@ -504,3 +504,10 @@ LEFT JOIN
 SELECT person.first_name,car.model,car.price FROM person
 LEFT JOIN car ON person.car_id = car.id;
 ```
+
+
+Expanded Query
+```SQl
+SELECT person.first_name,car.model,car.price FROM person
+LEFT JOIN car ON person.car_id = car.id WHERE car.* IS NULL;
+```
