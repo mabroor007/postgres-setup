@@ -458,3 +458,29 @@ VALUES(5,'sidu','muse wala','musewala@gmail.com','Male','1990-8-28','India')
 ON CONFLICT(id) 
 DO NOTHING;
 ```
+
+
+Create relations in tables using REFERENCES
+```SQL
+CREATE TABLE car (
+    id BIGSERIAL NOT NULL PRIMARY KEY,
+    make VARCHAR(50) NOT NULL,
+    model VARCHAR(50) NOT NULL,
+    price NUMERIC(19,2) NOT NULL
+);
+CREATE TABLE person(
+    id BIGSERIAL NOT NULL PRIMARY KEY,
+    first_name VARCHAR(50) NOT NULL,
+    last_name VARCHAR(50) NOT NULL,
+    gender VARCHAR(8) NOT NULL CHECK(gender = 'Male' OR gender = 'Female' OR gender = 'Other'),
+    email VARCHAR(100) NOT NULL UNIQUE,
+    date_of_birth DATE NOT NULL,
+    country VARCHAR(50) NOT NULL,
+    car_id BIGINT REFERENCES car(id) UNIQUE
+);
+```
+
+
+NOTE: Table that you are making relations to must already exist
+
+
