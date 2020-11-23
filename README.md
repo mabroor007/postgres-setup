@@ -532,3 +532,21 @@ Create csv exported files
 
 If you are using docker then you can copy file to host by using
 `sudo docker cp post-app:/fs/per.csv .`
+
+
+You can view the sequence that manages id using 
+```SQL
+SELECT * FROM person_id_seq;
+```
+
+
+You can also call the sequencing function 
+```SQL
+SELECT nextval('person_id_seq'::regclass);
+```
+
+
+You can restart sequence by using
+```SQL
+ALTER SEQUENCE person_id_seq RESTART WITH 10;
+```
