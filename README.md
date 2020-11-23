@@ -522,3 +522,9 @@ Then
 ```SQL
 DELETE FROM car WHERE id=3;
 ```
+
+
+Create csv exported files
+```SQL
+\copy (SELECT * FROM person) TO '/fs/per.csv' DELIMITER ',' CSV HEADER;
+```
