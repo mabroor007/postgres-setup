@@ -556,3 +556,9 @@ Check available extensions in postgres
 ```SQL
 SELECT * FROM pg_available_extensions;
 ```
+
+
+Installing extensions in postgres
+```SQL
+CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
+```
