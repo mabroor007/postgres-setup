@@ -563,3 +563,9 @@ Installing extensions in postgres
 ```SQL
 CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 ```
+
+
+Invoking functions
+```SQL
+SELECT uuid_generate_v4();
+```
