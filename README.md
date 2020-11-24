@@ -83,6 +83,7 @@ CHEAT SHEAT
 | \d table_name | Details of table |
 | \dt | Just the list of tables |
 | \x | Toggle expanded view |
+| \df | List of available functions |
 
 ---
 # SQL 
