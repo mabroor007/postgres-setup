@@ -550,3 +550,9 @@ You can restart sequence by using
 ```SQL
 ALTER SEQUENCE person_id_seq RESTART WITH 10;
 ```
+
+
+Check available extensions in postgres
+```SQL
+SELECT * FROM pg_available_extensions;
+```
